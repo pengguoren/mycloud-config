@@ -2,22 +2,22 @@
   port: 8201
 
 spring:
-  prosiles: dev
+  profiles: dev #测试环境
   application:
-    name:  mycloud-config-client
+    name: mycloud-config-client-dev
 eureka:
   client:
     service-url:
       defaultZone: http://eureka-dev.com:7001/eureka/
 
 ---
+
 server:
   port: 8202
-
 spring:
-  prosiles: test
+  profiles: test #测试环境
   application:
-    name:  mycloud-config-client
+    name: mycloud-config-client-test
 eureka:
   client:
     service-url:
