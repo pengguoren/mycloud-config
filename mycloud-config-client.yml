@@ -5,7 +5,7 @@ spring:
   prosiles: dev
   application:
     name:  mycloud-config-client
-euraka:
+eureka:
   client:
     server-url:
       defaultZone: http://eureka-dev.com:7001/eureka/
@@ -18,7 +18,7 @@ spring:
   prosiles: test
   application:
     name:  mycloud-config-client
-euraka:
+eureka:
   client:
     server-url:
       defaultZone: http://eureka-test.com:7001/eureka/
